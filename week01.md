@@ -49,7 +49,9 @@ buf = (0xffeb0078)
 >
 ```
 실행할때마다 buf 값이 계속 다르게 나온다...
-`ASLR`이 걸려있구나..
+`ASLR`이 걸려있구나..A
+>`ASLR` 실행 할때마다 address 가 무작위로 설정됨. 스택,  힙, 공유 라이브러리 등
+> PIE는 Code(Text)영역을 포함한 모든 영역(Data, Stack, Heap, Libc)을 랜덤하게 매핑
 
 간단하게보면 
 ```c
@@ -214,7 +216,7 @@ r.sendline(payload)
 r.interactive()
 ```
 
-## bof basic 문제
+## + bof basic 문제
 [ELF x64 - Stack buffer overflow - basic](https://www.root-me.org/en/Challenges/App-System/ELF-x64-Stack-buffer-overflow-basic)
 
 ---
