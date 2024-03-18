@@ -214,8 +214,10 @@ r.sendline(payload)
 r.interactive()
 ```
 
+## bof basic 문제
+[ELF x64 - Stack buffer overflow - basic](https://www.root-me.org/en/Challenges/App-System/ELF-x64-Stack-buffer-overflow-basic)
+
 ---
-- 과제를 github로 작성하는김에 스터디 자체를 github로 진행하는건 어떤지🤔?
 - 어떤 문제를 풀지 정해줄까 아니면 각자 풀고 싶은 워게임 풀어오는 것으로 할까🤔?..<br>
  필수과제 + 선택과제 는 어떤지? 
  
